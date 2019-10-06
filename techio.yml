@@ -18,7 +18,7 @@ plan:
 # Settings for your programming projects and the associated Docker images
 projects:
   paper:
-    root: "/animPapers"
+    root: "/animPaper"
     runner:
       name: techio/cmake-gcc-runner
       version: latest
