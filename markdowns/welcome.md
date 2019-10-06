@@ -26,4 +26,4 @@ Les fonctions permettant de manipuler un `paper animé` :
 
 Voici un exemple qui re-colorie (9 fois) les cases noires en blanc et inversement. Ceci en dessinant des petits carrés (de côtés 2) tout en haut à gauche du paper animé :
 
-@[Sample paper]({"stubs": ["main.c"],"command": "sh /project/target/run.sh", "project" : "paper"})
+@[Sample paper]({"stubs": ["main.c"],"command": "sh /project/target/run.sh", "project" : "animPaper"})
