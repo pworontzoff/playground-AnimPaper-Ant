@@ -4,6 +4,8 @@ Commençons par une petite "séance cinoche" :
 
 https://www.youtube.com/watch?v=qZRYGxF6D3w
 
+([Télécharger](https://www.dropbox.com/s/ay8mr2rndmn1yur/La%20fourmi%20de%20Langton%20-%20Science%20%C3%A9tonnante%20%2321.mp4?dl=0))
+
 Le challenge consiste à reproduire les animations de David Louapre (le vidéaste de la chaîne "science étonnante" que vous venez de voir dans la vidéo).
 
 Dans ce premier exercice, on va s'attaquer à la toute première animation (sans dessiner la fourmi, bien sûr !) : https://youtu.be/qZRYGxF6D3w?t=73 ([Télécharger](https://github.com/pworontzoff/playground-AnimPaper-Ant/blob/master/markdowns/videos/animEx1.mp4?raw=true))
