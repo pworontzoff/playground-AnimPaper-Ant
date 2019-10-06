@@ -1,4 +1,4 @@
-title : Exercices Papers animés - Solutions
+title : Exercices Papers animés - La fourmi de Langton - Solutions
 
 # Table of contents
 plan:
@@ -14,12 +14,6 @@ plan:
     statement: markdowns/fourmi4.md
   - title: Exercice 5 - La fourmi de Langton v5
     statement: markdowns/fourmi5.md
-  - title: Exemple Paper animé avec step_display
-    statement: markdowns/sample_stepping.md
-  - title: Exercice 6 - Le jeu de la vie - un clignotant
-    statement: markdowns/vie.md
-  - title: Exercice 7 - Le jeu de la vie - un canon à planeurs
-    statement: markdowns/vie2.md
 
 # Settings for your programming projects and the associated Docker images
 projects:
@@ -50,21 +44,6 @@ projects:
       version: latest
   fourmi5:
     root: "/Fourmi5"
-    runner:
-      name: techio/cmake-gcc-runner
-      version: latest
-  sample_step_display:
-    root: "/sample_step_display"
-    runner:
-      name: techio/cmake-gcc-runner
-      version: latest
-  vie:
-    root: "/vie"
-    runner:
-      name: techio/cmake-gcc-runner
-      version: latest
-  vie2:
-    root: "/vie2"
     runner:
       name: techio/cmake-gcc-runner
       version: latest
