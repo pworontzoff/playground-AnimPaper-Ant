@@ -30,6 +30,6 @@ La difficulté de l'exercice n'est pas tant dans l'implémentation des règles s
     * une qui fait tourner la fourmi d'1/4 de tour vers la droite puis avancer d'une case ;
     * l'autre qui fait tourner la fourmi d'1/4 de tour vers la gauche puis avancer d'une case.
     
-Bon travail !
+Bon travail ;-)
 
 @[Exercice 1]({"stubs": ["main.c"],"command": "sh /project/target/run.sh", "project" : "fourmi1"})
