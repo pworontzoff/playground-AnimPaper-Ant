@@ -24,6 +24,8 @@ Les fonctions permettant de manipuler un `paper animé` :
 
 ### Exemple
 
-Voici un exemple qui re-colorie (9 fois) les cases noires en blanc et inversement. Ceci en dessinant des petits carrés (de côtés 2) tout en haut à gauche du paper animé :
+Voici un exemple qui colorie un petit carré de 4 cases en en haut à gauche du paper, puis les efface, et recommence 9 fois :
 
 @[Sample paper]({"stubs": ["main.c"],"command": "sh /project/target/run.sh", "project" : "animPaper"})
+
+On voit bien que chaque coloriage ou effacement est visible (pendant le délai fixé de 0.5s dans l'avant-dernier paramètre de la'appel à la fonction `init_paper();`).
