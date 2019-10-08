@@ -28,4 +28,4 @@ Voici un exemple qui colorie un petit carré de 4 cases en en haut à gauche du 
 
 @[Sample paper]({"stubs": ["main.c"],"command": "sh /project/target/run.sh", "project" : "animPaper"})
 
-On voit bien que chaque coloriage ou effacement est visible (pendant le délai fixé de 0.25s dans l'avant-dernier paramètre de la'appel à la fonction `init_paper();`).
+On voit bien que chaque coloriage ou effacement est visible (pendant le délai fixé de 0.25s dans l'avant-dernier paramètre de l'appel à la fonction `init_paper();`).
