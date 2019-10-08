@@ -236,7 +236,7 @@ struct RGB _get_color(struct spaper work) {
         }
         return pCur->current_color;
     } else if (work.status != 1) {
-        printf("TECHIO> message --channel \"Error\" OPERATION get_color() OUT OF RANGE PAPER[%d][%d]\n",work->l,work->c);
+        printf("TECHIO> message --channel \"Error\" OPERATION get_color() OUT OF RANGE PAPER[%d][%d]\n",work.l,work.c);
 	work.status=1;
     }
 }
