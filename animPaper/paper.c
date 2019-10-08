@@ -35,7 +35,7 @@ void step_display() {
         _step_display(&_paper);
     }
 }
-void change_color(int red, int green, int bluel) {
+void change_color(int red, int green, int blue) {
     _change_color(&_paper,red,green,blue);
 }
 int is_colored() {
