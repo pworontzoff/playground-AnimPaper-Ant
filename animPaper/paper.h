@@ -52,7 +52,7 @@ void _step_display(struct spaper *);
 void _change_color(struct spaper *, short, short, short);
 int _is_colored(struct spaper);
 struct RGB _get_color(struct spaper);
-void _create_quad(char *,struct colorize_element *,short, short, short);
+void _create_quad(char *,struct colorize_element *,int, int, int);
 
 void init_paper(int, int, int, float, int);
 void display_paper();
