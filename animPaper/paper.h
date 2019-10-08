@@ -48,7 +48,7 @@ void _move_right(struct spaper *);
 void _move_to(struct spaper *, int, int);
 void _colorize(struct spaper *);
 void _erase(struct spaper *);
-void _step_display(struct spaper);
+void _step_display(struct spaper *);
 void _change_color(struct spaper *, int, int, int);
 int _is_colored(struct spaper);
 struct RGB _get_color(struct spaper);
