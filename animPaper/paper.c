@@ -87,7 +87,7 @@ void _create_table(struct spaper work) {
     struct colorize_element *pCur, *pPrec;
 
     fputs("<style>",work.fp);
-    fputs("\ntable#animPaper {background-color: rgb(255,255,255)}",work.fp);
+    fputs("\nbody {background-color: rgb(255,255,255)}",work.fp);
    // create animations on <td>s
     for (i=0;i<work.nbl;i++) {
         for (j=0;j<work.nbc;j++) {
