@@ -23,19 +23,17 @@ void move_to(int l, int c) {
 }
 void colorize() {
     if (_paper.use_step_display == 0) {
-        _step_display(&_paper);
+        _step_display(_paper);
     }
     _colorize(&_paper);
 }
-
 void step_display() {
     if (_paper.use_step_display == 1) {
-        _step_display(&_paper);
+        _step_display(_paper);
     }
 }
-
-void change_color(int greyLevel) {
-    _change_color(&_paper,greyLevel,greyLevel,greyLevel);
+void change_color(int red, int green, int bluel) {
+    _change_color(&_paper,red,green,blue);
 }
 int get_color() {
     return _get_color(&_paper);
