@@ -28,6 +28,9 @@ void colorize() {
     _colorize(&_paper);
 }
 void erase() {
+    if (_paper.use_step_display == 0) {
+        _step_display(&_paper);
+    }
     _erase(&_paper);
 }
 void step_display() {
