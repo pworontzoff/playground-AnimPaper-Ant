@@ -18,10 +18,10 @@ int main()
 
     move_to(3,3);
     repeat(8) {
-        if (is_colored()) {
+        if (!is_colored()) {
             colorize();
             ant_turns_right_then_move();
-        } else { // assume black
+        } else {
             erase();
             ant_turns_left_then_move();
         }
