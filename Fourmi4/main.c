@@ -17,12 +17,10 @@ int main()
     init_paper(35,35,15,0.01,0);
     move_to(17,17);
     repeat(2000) {
-        if (get_color()==white) {
-            change_color(black);
-            colorize();
+        if (is_colored()) {
+            erase();
             ant_turns_right_then_move();
-        } else { // assume black
-            change_color(white);
+        } else {
             colorize();
             ant_turns_left_then_move();
         }
