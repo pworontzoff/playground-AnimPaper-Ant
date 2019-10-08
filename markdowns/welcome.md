@@ -3,7 +3,7 @@
 Ces laboratoires sont une variante "animée" des papers. Les seules nouveautés étant :
 - que l'on peut savoir si la case sous le "curseur" est coloriée ou non via la fonction `is_colored()` qui retourne 0 si ladite case n'est pas coloriée et 1 si elle l'est. (Initialement, aucune case n'est coloriée) ;
 - que la fonction `erase()` efface la couleur de la case sous le "curseur" ;
-- que chaque `erase()` et chaque `colorize()` marquent une pause juste après avoir effacé ou colorié la case ;
+- que chaque `erase()` et chaque `colorize()` **marquent une pause** juste après avoir effacé ou colorié la case ;
 - que le temps de pause à marquer entre chaque coloriage ou effacement de case est spécifié dans l'avant dernier paramètre `delai_anim` de la fonction `init_paper()` ;
 - que le dernier paramètre de la fonction `init_paper()` ne sera pas éxploité pour le moment et devra être tout simplement mis à 0.
 
