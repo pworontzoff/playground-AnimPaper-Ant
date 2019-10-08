@@ -221,7 +221,7 @@ int _is_colored(struct spaper work) {
         }
         return pCur->current_color.red==-1 && pCur->current_color.green==-1 && pCur->current_color.blue==-1?0:1;
     } else if (work.status != 1) {
-        printf("TECHIO> message --channel \"Error\" OPERATION is_colored() OUT OF RANGE PAPER[%d][%d]\n",work->l,work->c);
+        printf("TECHIO> message --channel \"Error\" OPERATION is_colored() OUT OF RANGE PAPER[%d][%d]\n",work.l,work.c);
 	work.status=1;
     }
 }
