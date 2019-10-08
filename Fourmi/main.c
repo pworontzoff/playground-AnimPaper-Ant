@@ -18,13 +18,11 @@ int main()
 
     move_to(3,3);
     repeat(8) {
-        if (get_color()==white) {
-            change_color(black);
+        if (is_colored()) {
             colorize();
             ant_turns_right_then_move();
         } else { // assume black
-            change_color(white);
-            colorize();
+            erase();
             ant_turns_left_then_move();
         }
     } loop;
