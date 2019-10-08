@@ -18,7 +18,7 @@ Les fonctions permettant de manipuler un `paper animé` :
 - `move_down()` : déplace le "curseur" de coloriage d'une case vers le bas ;
 - `move_up()`  : déplace le "curseur" de coloriage d'une case vers le haut ;
 - `colorize()` : colorie la case où se trouve le "curseur" de coloriage. **Attention : on ne peut jamais colorier hors du `paper`** ;
-- `erase()` : efface la couleur de la case où se trouve le "curseur" de coloriage. **Attention : on ne peut jamais effacer hors du `paper`** ;
+- `erase()` : efface la couleur de la case où se trouve le "curseur" de coloriage. **Attention : on ne peut jamais effacer hors du `paper`** ;
 - `change_color(rouge,vert,bleu)` : permet de définir la couleur de coloriage en fixant l'intensité des composantes rouge, verte et bleu. **Attention : chaque composante de couleur ne peut qu'être un nombre entier entre 0 inclus et 255 inclus** ;
 - `display_paper()` : affiche le `paper animé`.
 
