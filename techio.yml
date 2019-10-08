@@ -4,7 +4,7 @@ title : Exercices Papers animés - La fourmi de Langton - Solutions
 plan:
   - title: Paper animé - Exemple # Set the page title
     statement: markdowns/welcome.md # Set the file path to the page content
-  - title: Exercice 1 - La fourmi de Langton # Another Page
+  - title: Exercice 1 - La fourmi de Langton # Another Page...
     statement: markdowns/fourmi.md
   - title: Exercice 2 - La fourmi de Langton v2 
     statement: markdowns/fourmi2.md
