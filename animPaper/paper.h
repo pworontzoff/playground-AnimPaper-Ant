@@ -11,9 +11,9 @@ int _cpt_repeat[100];
 int _pile_repeat;
 
 struct RGB {
-    unsigned char red;
-    unsigned char green;
-    unsigned char blue;
+    short red;
+    short green;
+    short blue;
 };
 
 struct colorize_element {
