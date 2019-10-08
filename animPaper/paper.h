@@ -4,11 +4,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define black 0
-#define grey 127
-#define white 255
-
-
 #define repeat(n) _pile_repeat++;for(_cpt_repeat[_pile_repeat]=0;_cpt_repeat[_pile_repeat]<n;_cpt_repeat[_pile_repeat]++)
 #define loop _pile_repeat--
 
@@ -69,7 +64,7 @@ void move_to(int, int);
 void colorize();
 void erase();
 void step_display();
-void change_color(int);
+void change_color(int, int, int);
 int is_colored();
 struct RGB get_color();
 
