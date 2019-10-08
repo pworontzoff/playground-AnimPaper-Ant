@@ -250,5 +250,9 @@ void _create_quad(char *buffer,struct colorize_element *pCur,int dim, int i, int
         curColor = pCur->current_color;
 	pCur = pCur->pNext;
     }
-    sprintf(buffer,"<td id='cell_%d_%d' style='width:%dpx; background-color:rgb(%d,%d,%d);'></td>",i,j,dim,curColor.red,curColor.green,curColor.blue);
+    if (curColor.red==-1 && curColor.green==-1 && curColor.blue==-1) {
+        sprintf(buffer,"<td id='cell_%d_%d' style='width:%dpx; background-color:rgb(0,0,0,0);'></td>",i,j,dim);
+    } else {
+        sprintf(buffer,"<td id='cell_%d_%d' style='width:%dpx; background-color:rgb(%d,%d,%d);'></td>",i,j,dim,curColor.red,curColor.green,curColor.blue);
+    }
 }
