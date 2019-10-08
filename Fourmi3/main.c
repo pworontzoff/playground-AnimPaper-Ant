@@ -17,11 +17,11 @@ int main()
     init_paper(15,15,25,0.025,0);
     move_to(7,7);
     repeat(472) {
-        if (is_colored()) {
-            erase();
+        if (!is_colored()) {
+            colorize();
             ant_turns_right_then_move();
         } else {
-            colorize();
+            erase();
             ant_turns_left_then_move();
         }
     } loop;
