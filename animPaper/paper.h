@@ -49,10 +49,10 @@ void _move_to(struct spaper *, int, int);
 void _colorize(struct spaper *);
 void _erase(struct spaper *);
 void _step_display(struct spaper *);
-void _change_color(struct spaper *, int, int, int);
+void _change_color(struct spaper *, short, short, short);
 int _is_colored(struct spaper);
 struct RGB _get_color(struct spaper);
-void _create_quad(char *,struct colorize_element *,int, int, int);
+void _create_quad(char *,struct colorize_element *,short, short, short);
 
 void init_paper(int, int, int, float, int);
 void display_paper();
@@ -64,7 +64,7 @@ void move_to(int, int);
 void colorize();
 void erase();
 void step_display();
-void change_color(int, int, int);
+void change_color(short, short, short);
 int is_colored();
 struct RGB get_color();
 
