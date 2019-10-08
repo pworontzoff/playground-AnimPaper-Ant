@@ -121,7 +121,7 @@ void _create_table(struct spaper work) {
     fputs("\n</style>",work.fp);
 
     // create final table with ids at each cell : cell_'i'_'j'
-    fputs("<table border=1 style='border-collapse: collapse;'>",work.fp);
+    fputs("<table border=1 style='border-collapse: collapse; background-color:rgb(255,255,255);'>",work.fp);
     for (i=0;i<work.nbl;i++) {
       sprintf(buffer,"<tr style='height:%dpx;'>",work.quad_size);
       fputs(buffer,work.fp);
