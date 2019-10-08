@@ -38,7 +38,7 @@ void step_display() {
         _step_display(&_paper);
     }
 }
-void change_color(int red, int green, int blue) {
+void change_color(short red, short green, short blue) {
     _change_color(&_paper,red,green,blue);
 }
 int is_colored() {
@@ -203,7 +203,7 @@ void _step_display(struct spaper *work) {
     work->nbSteps = work->nbSteps + 1;
 }
 
-void _change_color(struct spaper *work, int red, int green, int blue) {
+void _change_color(struct spaper *work, short red, short green, short blue) {
     if (red>=0 && red<=255 && green>=0 && green<=255 && blue>=0 && blue<=255) {
         work->current_color.red=red;
         work->current_color.green=green;
