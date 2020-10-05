@@ -2,8 +2,6 @@
 
 Tout est dans le titre, pour réaliser cette animation : https://youtu.be/qZRYGxF6D3w?t=196 ([Télécharger](https://github.com/pworontzoff/playground-AnimPaper-Ant/blob/master/markdowns/videos/animEx4.mp4?raw=true))
 
-Mais ce coup-ci, la capricieuse fourmi de David était tournée tête à droite avant de démarrer...
-
 Avec pour résultat final au bout des 2000 cases parcourues par la fourmi :
 
 ![fourmi4](img/ex4.png)
