@@ -78,7 +78,7 @@ void _init_paper(struct spaper *paper, int nbl, int nbc, int size, float d, int 
     }
     paper->table=dummy;
     paper->status=0;
-    paper->fp = fopen("index.html","wt");
+    paper->fp = fopen("index.htm","wt");
 }
 
 void _create_table(struct spaper work) {
