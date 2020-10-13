@@ -86,7 +86,7 @@ void _create_table(struct spaper work) {
     char buffer[500]={0};
     struct colorize_element *pCur, *pPrec;
 
-    fputs("<style>",work.fp);
+    fputs("<html><head><style>",work.fp);
     fputs("\ttable#animPaper {background-color: rgb(255,255,255)}",work.fp);
    // create animations on <td>s
     for (i=0;i<work.nbl;i++) {
@@ -146,7 +146,7 @@ void _create_table(struct spaper work) {
     fputs("\n</style>",work.fp);
 
     // create final table with ids at each cell : cell_'i'_'j'
-    fputs("<table id='animPaper' border=1 style='border-collapse: collapse;'>",work.fp);
+    fputs("</head><body><table id='animPaper' border=1 style='border-collapse: collapse;'>",work.fp);
     for (i=0;i<work.nbl;i++) {
       sprintf(buffer,"<tr style='height:%dpx;'>",work.quad_size);
       fputs(buffer,work.fp);
@@ -156,7 +156,7 @@ void _create_table(struct spaper work) {
       }
       fputs("</tr>",work.fp);
     }
-    fputs("</table>",work.fp);
+    fputs("</table></body></html>",work.fp);
     fclose(work.fp);
     if (work.status==1) printf("TECHIO> success false\n");
 }
