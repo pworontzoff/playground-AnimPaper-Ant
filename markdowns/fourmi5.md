@@ -1,9 +1,9 @@
-# Exercice 5 - La fourmi de langton, v5 : 11000 étapes, grille de 75 x 75 (centrée en 37,37), cases de 10 pixels de côtés, une étape dure 0.0025s, fourmi initialement tête à droite
+# Exercice 5 - La fourmi de langton, v5 : Solution
 
-Tout est dans le titre, pour réaliser cette animation : https://youtu.be/qZRYGxF6D3w?t=247 ([Télécharger](https://github.com/pworontzoff/playground-AnimPaper-Ant/blob/master/markdowns/videos/animEx5.mp4?raw=true))
+## L'énoncé
 
-Avec pour résultat final au bout des 11000 déplacements de la fourmi, la mise en évidence de "l'autoroute" :
+https://tech.io/playgrounds/51349/exercices-papers-animes---la-fourmi-de-langton---enonces/exercice-5---la-fourmi-de-langton-v5
 
-![fourmi5](img/ex5.png)
+## Une solution type
 
 @[Exercice 5]({"stubs": ["main.c"],"command": "sh /project/target/run.sh", "project" : "fourmi5"})
