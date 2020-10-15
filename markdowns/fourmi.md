@@ -4,6 +4,6 @@
 
 https://tech.io/playgrounds/51349/exercices-papers-animes---la-fourmi-de-langton---enonces/exercice-1---la-fourmi-de-langton
 
-## La solution
+## Une solution type
 
 @[Exercice 1]({"stubs": ["main.c"],"command": "sh /project/target/run.sh", "project" : "fourmi1"})
