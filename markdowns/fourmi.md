@@ -1,6 +1,8 @@
 # Exercice 1 - La fourmi de langton, v1 : Solution
 
-L'énoncé : https://tech.io/playgrounds/51349/exercices-papers-animes---la-fourmi-de-langton---enonces/exercice-1---la-fourmi-de-langton
+## L'énoncé
+
+https://tech.io/playgrounds/51349/exercices-papers-animes---la-fourmi-de-langton---enonces/exercice-1---la-fourmi-de-langton
 
 ## La solution
 
