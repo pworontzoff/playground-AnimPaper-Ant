@@ -1,4 +1,4 @@
-# Exercice 2 - La fourmi de langton, v2
+# Exercice 2 - La fourmi de langton, v2 : Solution
 
 ## L'énoncé
 
