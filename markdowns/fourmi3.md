@@ -1,9 +1,9 @@
-# Exercice 3 - La fourmi de langton, v3 : 472 étapes, grille de 15 x 15 (centrée en 7,7), cases de 25 pixels de côtés, une étape dure 0.025s, fourmi initialement tête à gauche
+# Exercice 3 - La fourmi de langton, v3 : Solution
 
-Tout est dans le titre, pour réaliser cette animation : https://youtu.be/qZRYGxF6D3w?t=143 ([Télécharger](https://github.com/pworontzoff/playground-AnimPaper-Ant/blob/master/markdowns/videos/animEx3.mp4?raw=true))
+## L'énoncé
 
-Avec pour résultat final au bout des 472 cases parcourues par la fourmi :
+https://tech.io/playgrounds/51349/exercices-papers-animes---la-fourmi-de-langton---enonces/exercice-3---la-fourmi-de-langton-v3
 
-![fourmi3](img/ex3.png)
+## La solution
 
 @[Exercice 3]({"stubs": ["main.c"],"command": "sh /project/target/run.sh", "project" : "fourmi3"})
